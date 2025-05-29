@@ -20,14 +20,6 @@ export class BclApi implements ICredentialType {
 			description: 'Personal Access Token for BCL API',
 			required: true,
 		},
-		{
-			displayName: 'Base URL',
-			name: 'baseUrl',
-			type: 'string',
-			default: 'https://bcl-dev.net/api',
-			description: 'Base URL for the BCL API',
-			required: true,
-		},
 	];
 
 	authenticate: IAuthenticateGeneric = {
@@ -42,7 +34,7 @@ export class BclApi implements ICredentialType {
 
 	test: ICredentialTestRequest = {
 		request: {
-			baseURL: '={{$credentials.baseUrl}}',
+			baseURL: 'https://bcl.my/api',
 			url: '/user',
 			method: 'GET',
 		},
