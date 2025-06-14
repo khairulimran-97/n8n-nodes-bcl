@@ -17,7 +17,7 @@ export class Bcl implements INodeType {
 		name: 'bcl',
 		icon: 'file:bcl-logo.svg',
 		group: ['transform'],
-		version: 1,
+		version: [1],
 		subtitle: '={{$parameter["operation"] + ": " + $parameter["resource"]}}',
 		description: 'Consume BCL Payment API',
 		defaults: {

@@ -1,7 +1,7 @@
 {
   "name": "n8n-nodes-bcl",
-  "version": "0.1.0",
-  "description": "Node N8N for BCL.my",
+  "version": "0.1.1",
+  "description": "BCL.my Node for N8N",
   "keywords": [
     "n8n-community-node-package"
   ],
